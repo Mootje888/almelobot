@@ -22,6 +22,7 @@ module.exports.run = async (client, message, argument) => {
         .setColor("#ff0000")
         .setThumbnail(banUser.user.displayAvatarURL)
         .setFooter(message.member.displayName, message.author.displayAvatarURL)
+        .setTimestamp()
         .setDescription(`** Geband:** ${banUser} (${banUser.id})
             **Geband door:** ${message.author}
             **Redenen: ** ${reason}`);
