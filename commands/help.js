@@ -43,7 +43,8 @@ module.exports.run = async (client, message, args) => {
 
         } else if(command["category"] == "Informatie"){
 
-            info += `${prefix}${command["name"]} - ${command["description"]}\n`;
+            info += `${prefix}${command["!hallo"]} - ${command["-"]}\n`,
+            info += `${prefix}${command["!ping"]} - ${command["-"]}\n`;
 
         }
 
