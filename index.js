@@ -32,7 +32,6 @@ fs.readdir("./commands/", (err, files) => {
 
 })
 
-bot.login(botConfig.token);
  
 bot.on("ready", async () => {
  
@@ -79,3 +78,5 @@ bot.on("message", async message => {
     channel.send(`Welkom in de server ${member}! Heb een fijne tijd!!`);
 
    });
+
+   bot.login(process.env.token);
