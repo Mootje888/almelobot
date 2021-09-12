@@ -26,7 +26,7 @@ module.exports.run = async (client, message, args) => {
 
     var embed = new discord.MessageEmbed()
         .setTitle("Hoi " + message.author.username)
-        .setFooter("Support kanaal wordt aangemaakt");
+        .setFooter("U Ticket word aangemaakt!");
 
     message.channel.send(embed);
 
@@ -53,7 +53,7 @@ module.exports.run = async (client, message, args) => {
 
                     var embedParent = new discord.MessageEmbed()
                         .setTitle(`Hoi ${message.author.username}`)
-                        .setDescription("Zet hier je bericht / vraag");
+                        .setDescription("Hallo, Iemand van ons staff team zal u komen helpen. Zet u vraag alvast in de ticket!");
 
                     settedParent.send(embedParent);
 
