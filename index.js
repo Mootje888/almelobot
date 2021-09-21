@@ -65,13 +65,13 @@ bot.on("message", async message => {
 
    bot.on("guildMemberAdd", member => {
 
-    var role = member.guild.roles.cache.get('844948731626258432');
+    var role = member.guild.roles.cache.get('889881936087089252');
 
     if(!role) return;
 
     member.roles.add(role);
 
-    var channel = member.guild.channels.cache.get('856510455652679710');
+    var channel = member.guild.channels.cache.get('889880488263700502');
 
     if(!channel) return;
 

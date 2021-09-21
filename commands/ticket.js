@@ -3,7 +3,7 @@ const discord = require("discord.js");
 
 module.exports.run = async (client, message, args) => {
 
-    const categoryID = "873968786968035329";
+    const categoryID = "889928211553730570";
 
     var userName = message.author.username;
     var userDiscriminator = message.author.discriminator;
